@@ -16,8 +16,6 @@ var gamingLaptop = {
   }
 };
 
-gamingLaptop.gamesItCanPlay("Assassins Creed");
-
 var hoverScooter = {
   speed: "20mph",
   dashboard: "LCD screen",
@@ -28,10 +26,10 @@ var hoverScooter = {
   runMph: function(miles) {
     console.log("I " + "ride " + miles + " miles");
   }
-}
+};
 
+gamingLaptop.gamesItCanPlay("Assassins Creed");
 hoverScooter.runMph(15);
 
-console.log();
 console.log(gamingLaptop.peripherals[2]);
 console.log(hoverScooter.charge[1]);
